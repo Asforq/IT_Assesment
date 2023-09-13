@@ -1,5 +1,6 @@
 # IT_Assesment
-Task:
+Task/
+
 s3878010 - Duc Anh - Tool and technologies/
 
 student number - Lam - Overview Testing/
