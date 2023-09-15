@@ -1,0 +1,23 @@
+.centered-text{text-align: center;}
+
+.italic-text{font-style: italic; font-weight: normal;}
+
+.bold-text{font-style: bold;}
+
+.calibri-text{font-family: calibri; font-weight: normal;}
+
+.italic-text li {margin-bottom: 18; font-weight: normal;}
+
+
+
+h1 {font-size: 28pt;}
+
+h2 {font-size: 23pt;}
+
+h6 {font-size: 12pt;}
+
+.scaled-image {
+    width: 30%;
+    height: auto;
+    margin-bottom: 60pt;
+}
