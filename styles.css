@@ -1,10 +1,12 @@
 .centered-text{text-align: center;}
+.justtify-text{text-align: justify;}
+
 .text-font-weight-normal {font-weight: normal;}
 
 .italic-text{font-style: italic; font-weight: normal;}
 .italic-text li {margin-bottom: 18; font-weight: normal;}
 .italic-bold-text{font-style: italic; font-style: bold;}
-.bold-text{font-style: bold;}
+.bold-text{font-weight: bold;}
 .calibri-text{font-family: calibri; font-weight: normal;}
 
 .left-margin{margin-left: 50pt;}
