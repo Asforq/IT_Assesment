@@ -3,12 +3,6 @@
 <head>
     <title>IT_AS3_Group5</title>
     <link rel="stylesheet" href="styles.css">
-    <style> 
-        .toc{font-style: italic; font-style: bold; margin-top: 160pt;}
-        .section{margin-left: 50pt; margin-top: 100pt;}
-        .sub-section{margin-left: 70pt}
-        .paragraph{margin-left: 90pt; margin-right: 90pt; text-align: justify;}
-    </style>
 </head>
 <body>
 
@@ -22,10 +16,7 @@
         <h3 class = "italic-text">Group 5: </h3>
         </div>
         <div class = "italic-text li">
-            <style>
-                ul {list-style-type: none; padding: 0;}
-            </style>
-            <ul>
+            <ul class = "no-list">
                 <li>Nguyen Duc Anh (s3878010),</li>
                 <li>Tran Sy Minh Viet (s3977880),</li>
                 <li>Duong Minh Tri (s3924472),</li>
@@ -35,7 +26,7 @@
         </div>                                                   
     </div>
 
-    <!-- Team Profile -->
+    <!-- 1 Team Profile -->
     <h4 class = "section">1.Team Profile</h4>
     <h5 class = "sub-section">1.1.Team Name</h5>
     <p class = "paragraph">Our team name is “5 person group” which is inspired from the number of members in our team. This name symbolizes the solidarity in our team because when any issues happen, we will together solve them. </p>
@@ -68,8 +59,9 @@
         </p>
     </div>
 
-    <!-- Project Description -->
+    <!-- 3 Project Description -->
     <h4 class= "section">3.Project Description</h4>
+    <!-- 3.1 Overview -->
     <h5 class = "sub-section">3.1.Overview</h5>
     <div class = "paragraph">
         <p class = "bold-text">Topic:</p>
@@ -84,6 +76,7 @@
         <p>There are several similar systems and products that are available in the market, and it’s important to understand competition and compare differences with our own systems. The most common products are commercial automated plant watering systems. These systems are typically well designed and are easy to set up, however they can be relatively expensive. There are also IoT-based plant care devices which monitor plant health factors, including soil moisture, temperature, and light levels. These devices send data to mobile apps for remote monitoring but do not include any automated watering capabilities. Although there are alot of existing product and DIY solutions for automated plant watering systems, our project difference lies in its customization, scalability, cost effectiveness, and being an open-source project. We believe that we have an edge, and will be a valuable option for plant enthusiasts, and tech-savvy. 
         </p>
     </div>
+    <!-- 3.2 Aims -->
     <h5 class = "sub-section">3.2.Aims</h5>
     <div class = "paragraph">
         <p>As the requirements for assignment 2 of this course we have come up with an idea of making a machine that is based on the raspberry pi to automate watering and storing water based on the moisture in the soil and predicted weather throughout the years from weather predictions website as a source of data. This piece of machinery is aimed to help farmers to adapt to the rapidly changing climate due to global warming.
@@ -93,6 +86,7 @@
         <p>We expected our project outcomes would be a fully automated machine that can act on its own based on multiple reliable sources of information, while still allowing the owner to make manual adjustment if they deem the information unreliable or incorrect. We then will use the manual adjustment data as another source of information to compare with future data to make the most efficient predictions for the future.
         </p>
     </div>
+    <!-- 3.3 Plans and Progress -->
     <h5 class = "sub-section">3.3.Plans and Progress</h5>
     <div class = "paragraph">
         <p>Inconsistent and frequently insufficient watering techniques?The Raspberry Pi Tree Watering Sensor project is the solution to this problem. The goal of this project was to monitor soil moisture levels and intelligently automate tree watering, assuring the tree doesn’t die out.</p>      
@@ -102,10 +96,39 @@
         <p>The project's software component was equally complex. To communicate with the sensors, gather data, and plan precise watering decisions, we started working on a Python-based software. In order to get the best watering results, the algorithm evolved to incorporate moisture thresholds, real-time data processing, and the capacity to react to changing climatic conditions. . </p>
         <p>Future Projects: The following critical steps are included in our project roadmap and are necessary to fully utilize the Raspberry Pi Tree Watering Sensor: 
         </p>
-        <p>1. User Interface Development: Users will be able to customize irrigation settings, monitor soil moisture levels remotely, and get instant alerts thanks to this interface. Additionally, it will allow for the management of several trees.</p>
-        <p>2. Integration of Environmental Sensors: We are continually working on enhancing sensor capabilities by integrating more environmental sensors in order to give users an understanding of plant health. Users are able to evaluate not only the soil conditions but also the larger environmental context in which trees thrive thanks to the possibility that these sensors include temperature and humidity sensors. </p>
-        <p>3. Documentation and Knowledge Transfer: Thorough documentation continues to be a high emphasis as the project moves forward. We are dedicated to producing thorough and user-friendly documentation that includes software code, hardware schematics, and precise assembly instructions. Our objective is to create a community of users and developers who can work together to advance and better the project. </p>
-    
+        <ol>
+            <li class = "scope-list">User Interface Development: Users will be able to customize irrigation settings, monitor soil moisture levels remotely, and get instant alerts thanks to this interface. Additionally, it will allow for the management of several trees.</li>
+            <li class = "scope-list">Integration of Environmental Sensors: We are continually working on enhancing sensor capabilities by integrating more environmental sensors in order to give users an understanding of plant health. Users are able to evaluate not only the soil conditions but also the larger environmental context in which trees thrive thanks to the possibility that these sensors include temperature and humidity sensors.</li>
+            <li>Documentation and Knowledge Transfer: Thorough documentation continues to be a high emphasis as the project moves forward. We are dedicated to producing thorough and user-friendly documentation that includes software code, hardware schematics, and precise assembly instructions. Our objective is to create a community of users and developers who can work together to advance and better the project. </li>
+        </ol>
     </div>
+    <!-- 3.5 Scope and Limits -->
+    <h5 class = "sub-section">3.5.Scope and Limits</h5>
+    <!-- 3.5.1 Scope -->
+    <h5 class = "sub-sub-section">3.5.1.Scope</h5>
+    <p class = "paragraph">As for the making of this project we have a few features that we can deliver at the end of the project:</p>
+    <div class = "paragraph">
+        <ol>
+            <li class = "scope-list">Sensor Monitoring: Soil moisture sensors will collect data about the moisture content of the soil. This data will then be transmitted to the Raspberry Pi for processing.</li>
+            <li class = "scope-list">Threshold Analysis: The Raspberry Pi compares the collected moisture data with the programmed threshold. If moisture levels are below the threshold, the system proceeds to the next step.</li>
+            <li class = "scope-list">Watering Activation: Upon detection of low moisture, the Raspberry Pi automatically activates the water pump. Water is then supplied to the tree’s root zone through an irrigation system.</li>
+            <li class = "scope-list">Weather Considerations: The system can factor in weather forecasts to prevent unnecessary watering. If rain is predicted, the system postpones watering. If rain is predicted, the system will postpone watering to conserve water.</li>
+            <li class = "scope-list">Data Storage and Visualization: The collected data is then stored and can be accessed through a user interface. Users can analyze trends in soil moisture and adjust accordingly.</li>
+            <li class = "scope-list">Remote Control: Users are granted remote access to the system via either a user-friendly web interface or a dedicated mobile application. This enables real-time monitoring of soil moisture levels, reception of alerts, and even manually activating the watering process.</li>    
+        </ol>
+    </div>
+    <!-- 3.5.2 Limits-->
+    <h5 class = "sub-sub-section">3.5.2.Limits</h5>
+    <p class = "paragraph">With those key features in making, we do have a feel limit that we are currently facing:</p>
+    <div class = "paragraph">
+        <ol>
+            <li class = "scope-list">Ensuring the physical condition of the machine to be usable in an acceptable time in different weather conditions.</li>
+            <li class = "scope-list">Having enough storage space for data for the machine to learn from past data while not making the machine too large.</li>
+            <li class = "scope-list">No way of activating or clearing if the water output is clogged or blocked, and having some issue in the consistency of the moisture metering in case of where the moisture sensor is proper moisture while the surrounding is not.</li>
+            <li class = "scope-list">Having problems with comparing the data from multiple sources for the machine to make the needed judgment.</li>
+        </ol>
+    </div>
+    
+
 </body>
 </html>
