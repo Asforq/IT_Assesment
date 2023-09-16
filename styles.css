@@ -1,20 +1,23 @@
 .centered-text{text-align: center;}
+.text-font-weight-normal {font-weight: normal;}
 
 .italic-text{font-style: italic; font-weight: normal;}
-
+.italic-text li {margin-bottom: 18; font-weight: normal;}
+.italic-bold-text{font-style: italic; font-style: bold;}
 .bold-text{font-style: bold;}
-
 .calibri-text{font-family: calibri; font-weight: normal;}
 
-.italic-text li {margin-bottom: 18; font-weight: normal;}
-
+.left-margin{margin-left: 50pt;}
+.top-margin{margin-top: 200pt}
 
 
 h1 {font-size: 28pt;}
-
-h2 {font-size: 23pt;}
-
+h2 {font-size: 25pt;}
+h3 {font-size: 23pt;}
+h4 {font-size: 18pt;}
+h5 {font-size: 14pt;}
 h6 {font-size: 12pt;}
+
 
 .scaled-image {
     width: 30%;
