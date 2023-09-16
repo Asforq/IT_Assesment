@@ -5,14 +5,15 @@
     <link rel="stylesheet" href="styles.css">
     <style> 
         .toc{font-style: italic; font-style: bold; margin-top: 160pt;}
-        .section{margin-left: 50pt; margin-top: 150pt;}
+        .section{margin-left: 50pt; margin-top: 100pt;}
         .sub-section{margin-left: 70pt}
         .paragraph{margin-left: 90pt; margin-right: 90pt; text-align: justify;}
     </style>
 </head>
 <body>
+
     <!-- First Page -->
-    <img class = "scaled-image" src = https://1000logos.net/wp-content/uploads/2019/07/RMIT-Logo.png>
+    <img class = "scaled-image-rmit" src = https://1000logos.net/wp-content/uploads/2019/07/RMIT-Logo.png>
     <div class="centered-text">
         <div class = "calibri-text">
         <h1>Course Code: COSC2083</h1>
@@ -33,7 +34,8 @@
             </ul>
         </div>                                                   
     </div>
-    <!-- Team Profile-->
+
+    <!-- Team Profile -->
     <h4 class = "section">1.Team Profile</h4>
     <h5 class = "sub-section">1.1.Team Name</h5>
     <p class = "paragraph">Our team name is “5 person group” which is inspired from the number of members in our team. This name symbolizes the solidarity in our team because when any issues happen, we will together solve them. </p>
@@ -65,7 +67,45 @@
         <p>I attend RMIT Vietnam as a Vietnamese fourth-year robotics student. During my previous semesters at RMIT, I took a number of additional courses that included IT-related content as part of my core program and as electives. My current IT interests are in network security and the overall network infrastructure. My ideal position, if I were to pursue an IT-related career path, would be a software consultant. I will work closely with development teams on their projects as part of said role to provide guidance on each project's deliverables and solutions. I would be able to contribute to projects in this role while still being largely independent from any development teams, which would help me organize my work better.
         </p>
     </div>
-    
 
+    <!-- Project Description -->
+    <h4 class= "section">3.Project Description</h4>
+    <h5 class = "sub-section">3.1.Overview</h5>
+    <div class = "paragraph">
+        <p class = "bold-text">Topic:</p>
+        <p>The aim of our project is to create an automated plant watering system using Raspberry Pi and soil moisture sensors. This device focuses on plant care by ensuring plants receive the right amount of water at the right time, reducing the risk of over or under watering. The system consists of a soil moisture sensor placed in the plant’s soil. The Raspberry Pi will monitor soil moisture level and make decisions based on moisture thresholds. When the soil moisture drops, the arduino Raspberry Pi will automatically activate a water pump to deliver a precise amount of water to the plant. Ideally, the project will also include a user interface, accessible through a web application or mobile app, allowing the user to set moisture threshold, monitor plant health remotely, and receive alerts or notifications when intervention is required.  
+        </p>
+        <p>We hope that this system can improve plant health, and reduce manual plant care efforts. Users will benefit from a smart, automated solution that helps maintain healthy plants by providing water precisely when needed. Moreover, the project can be improved to support multiple plants, making it a scalable and user-friendly solution for both indoor and outdoor gardening. 
+        </p>
+        <p class = "bold-text">Motivation:</p>
+        <p>This project is intended to solve the current problem in indoor gardening, as people usually forget to water their plants. The system will automate the process of watering plants, and keep track of the plant’s overall health. The project combines technology with a practical, real-world application that can address everyday challenges. It fits into current IT trends by embracing automation, sustainability, IoT connectivity, data-driven, and decision-making making it an interesting system for tech enthusiasts and plant lovers. This project will help us develop a variety of skills for our future career including technical skills, problem-solving abilities, project management competency, and a commitment to innovation and sustainability, etc. These skills are highly valued by potential employers, especially in IT and technology industries. 
+        </p>
+        <p class = "bold-text">Landscape:</p>
+        <p>There are several similar systems and products that are available in the market, and it’s important to understand competition and compare differences with our own systems. The most common products are commercial automated plant watering systems. These systems are typically well designed and are easy to set up, however they can be relatively expensive. There are also IoT-based plant care devices which monitor plant health factors, including soil moisture, temperature, and light levels. These devices send data to mobile apps for remote monitoring but do not include any automated watering capabilities. Although there are alot of existing product and DIY solutions for automated plant watering systems, our project difference lies in its customization, scalability, cost effectiveness, and being an open-source project. We believe that we have an edge, and will be a valuable option for plant enthusiasts, and tech-savvy. 
+        </p>
+    </div>
+    <h5 class = "sub-section">3.2.Aims</h5>
+    <div class = "paragraph">
+        <p>As the requirements for assignment 2 of this course we have come up with an idea of making a machine that is based on the raspberry pi to automate watering and storing water based on the moisture in the soil and predicted weather throughout the years from weather predictions website as a source of data. This piece of machinery is aimed to help farmers to adapt to the rapidly changing climate due to global warming.
+        </p>
+        <p>The most important part of this project can be divided into two parts, the hardware, and the database. For the hardware part, we want to create a machine that is not expensive to acquire and not hard to maintain. While keeping it at an acceptable size but still sturdy enough to handle the hardship of weather. For the database our main difficulty comes in the form of accurate data and rapid data comparison to adapt to the weather changes and if possible, have the machine automatically act based on the given information.
+        </p>
+        <p>We expected our project outcomes would be a fully automated machine that can act on its own based on multiple reliable sources of information, while still allowing the owner to make manual adjustment if they deem the information unreliable or incorrect. We then will use the manual adjustment data as another source of information to compare with future data to make the most efficient predictions for the future.
+        </p>
+    </div>
+    <h5 class = "sub-section">3.3.Plans and Progress</h5>
+    <div class = "paragraph">
+        <p>Inconsistent and frequently insufficient watering techniques?The Raspberry Pi Tree Watering Sensor project is the solution to this problem. The goal of this project was to monitor soil moisture levels and intelligently automate tree watering, assuring the tree doesn’t die out.</p>      
+        <p>Project Development: The project's journey began with a thorough investigation of the hardware and software elements required for a reliable system. We selected the Raspberry Pi after carefully weighing our available microcontroller options. This device is recognized for its adaptability and open community support. It was crucial to choose soil moisture sensors that could deliver accurate readings in a range of soil types and environmental situations. The following integration of components would be the water pump and reservoir system.
+        </p>
+        <p>The physical infrastructure construction faced early difficulties. Careful fine-tuning was required to calibrate the soil moisture sensors to ensure accuracy across a range of soil profiles and climatic conditions. The system's installation of a fail-safe mechanism to prevent overwatering, a flaw sometimes ignored in automated irrigation systems, was a crucial component. </p>
+        <p>The project's software component was equally complex. To communicate with the sensors, gather data, and plan precise watering decisions, we started working on a Python-based software. In order to get the best watering results, the algorithm evolved to incorporate moisture thresholds, real-time data processing, and the capacity to react to changing climatic conditions. . </p>
+        <p>Future Projects: The following critical steps are included in our project roadmap and are necessary to fully utilize the Raspberry Pi Tree Watering Sensor: 
+        </p>
+        <p>1. User Interface Development: Users will be able to customize irrigation settings, monitor soil moisture levels remotely, and get instant alerts thanks to this interface. Additionally, it will allow for the management of several trees.</p>
+        <p>2. Integration of Environmental Sensors: We are continually working on enhancing sensor capabilities by integrating more environmental sensors in order to give users an understanding of plant health. Users are able to evaluate not only the soil conditions but also the larger environmental context in which trees thrive thanks to the possibility that these sensors include temperature and humidity sensors. </p>
+        <p>3. Documentation and Knowledge Transfer: Thorough documentation continues to be a high emphasis as the project moves forward. We are dedicated to producing thorough and user-friendly documentation that includes software code, hardware schematics, and precise assembly instructions. Our objective is to create a community of users and developers who can work together to advance and better the project. </p>
+    
+    </div>
 </body>
 </html>

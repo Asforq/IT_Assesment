@@ -1,6 +1,5 @@
 .centered-text{text-align: center;}
 .justtify-text{text-align: justify;}
-
 .text-font-weight-normal {font-weight: normal;}
 
 .italic-text{font-style: italic; font-weight: normal;}
@@ -20,8 +19,7 @@ h4 {font-size: 18pt;}
 h5 {font-size: 14pt;}
 h6 {font-size: 12pt;}
 
-
-.scaled-image {
+.scaled-image-rmit {
     width: 30%;
     height: auto;
     margin-bottom: 60pt;
