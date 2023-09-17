@@ -1,4 +1,4 @@
-# IT_Assesment
+# Group 5 IT_Assesment
 Word Document Task:
 
 s3878010 - Duc Anh - Tool and technologies
