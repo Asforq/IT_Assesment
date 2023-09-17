@@ -33,3 +33,8 @@ h6 {font-size: 12pt;}
 .no-list {list-style-type: none; padding: 0;}
 .scope-list {margin-bottom: 12pt;}
 .tool-list {margin-bottom: 12pt;}
+
+.gannt-chart-image{
+    width: 100%;
+    height: auto;
+}
