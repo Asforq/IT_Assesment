@@ -19,12 +19,8 @@ h4 {font-size: 18pt;}
 h5 {font-size: 14pt;}
 h6 {font-size: 12pt;}
 
-.scaled-image-rmit {
-    width: 30%;
-    height: auto;
-    margin-bottom: 60pt;
-}
-
+.scaled-image-rmit {width: 30%;height: auto;margin-bottom: 60pt;}
+.gannt-chart-image{width: 100%;height: auto;}
 .toc{font-style: italic; font-style: bold; margin-top: 160pt;}
 .section{margin-left: 50pt; margin-top: 100pt;}
 .sub-section{margin-left: 70pt}
@@ -34,7 +30,3 @@ h6 {font-size: 12pt;}
 .scope-list {margin-bottom: 12pt;}
 .tool-list {margin-bottom: 12pt;}
 
-.gannt-chart-image{
-    width: 100%;
-    height: auto;
-}
