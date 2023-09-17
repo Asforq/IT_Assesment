@@ -1,5 +1,5 @@
 .centered-text{text-align: center;}
-.justtify-text{text-align: justify;}
+.justify-text{text-align: justify;}
 .text-font-weight-normal {font-weight: normal;}
 
 .italic-text{font-style: italic; font-weight: normal;}
@@ -19,8 +19,14 @@ h4 {font-size: 18pt;}
 h5 {font-size: 14pt;}
 h6 {font-size: 12pt;}
 
-.scaled-image-rmit {
-    width: 30%;
-    height: auto;
-    margin-bottom: 60pt;
-}
+.scaled-image-rmit {width: 30%;height: auto;margin-bottom: 60pt;}
+.gannt-chart-image{width: 100%;height: auto;}
+.toc{font-style: italic; font-style: bold; margin-top: 160pt;}
+.section{margin-left: 50pt; margin-top: 100pt;}
+.sub-section{margin-left: 70pt}
+.sub-sub-section{margin-left: 80pt}
+.paragraph{margin-left: 90pt; margin-right: 90pt; text-align: justify;}
+.no-list {list-style-type: none; padding: 0;}
+.scope-list {margin-bottom: 12pt;}
+.tool-list {margin-bottom: 12pt;}
+
